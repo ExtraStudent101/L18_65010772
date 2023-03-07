@@ -19,6 +19,7 @@ void showVector(vector<int> x){
 	}
 }
 
+
 int dotProduct(vector<int> a,vector<int> b){
 	int sum = 0;
 	for(unsigned int i = 0;i < a.size(); i++) sum += a[i]*b[i];	
